@@ -1,4 +1,4 @@
-# CS3219 project: PeerPrep
+# TIC3001 Project
 
 ## User Service
 
