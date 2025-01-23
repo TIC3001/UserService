@@ -6,52 +6,29 @@
 
 3. You will be greeted with welcome screens. Feel free to skip them till you reach the Dashboard page.
 
-4. Create a Database Deployment by clicking on the green `+ Create` Button:
+4. Create a cluster by clicking on the `+ Create` or `Build a Cluster` button.
 
-![alt text](./GuideAssets/Creation.png)
+5. Select the M0 option, M0 clusters are free.
 
-5. Make selections as followings:
+> Ensure you select M0 Sandbox, else you may be prompted to enter card details and may be charged!
 
-- Select Shared Cluster
-- Select `aws` as Provider
-
-![alt text](./GuideAssets/Selection1.png)
-
-- Select `Singapore` for Region
-
-![alt text](./GuideAssets/Selection2.png)
-
-- Select `M0 Sandbox` Cluster (Free Forever - No Card Required)
-
-> Ensure to select M0 Sandbox, else you may be prompted to enter card details and may be charged!
-
-![alt text](./GuideAssets/Selection3.png)
-
-- Leave `Additional Settings` as it is
-
-- Provide a suitable name to the Cluster
-
-![alt text](./GuideAssets/Selection4.png)
-
-6. You will be prompted to set up Security for the database by providing `Username and Password`. Select that option and enter `Username` and `Password`. Please keep this safe as it will be used in User Service later on.
+6. Select `aws` as provider.
+7. Select  `Singapore` as region.
+8. Specify a name for your cluster. You cannot change the name of the cluster after Atlas deploys it.
+9. Click on `Create` to deploy the cluster. A security quickstart wizard will appear. \
+10. You will be prompted to set up Security for the database by providing `Username and Password`. Select that option and enter `Username` and `Password`. Please keep this safe as it will be used in User Service later on.
 
 ![alt text](./GuideAssets/Security.png)
 
-7. Next, click on `Add my Current IP Address`. This will whiteliste your IP address and allow you to connect to the MongoDB Database.
+11. Next, click on `Add my Current IP Address`. This will whitelist your IP address and allow you to connect to the MongoDB Database.
 
-![alt text](./GuideAssets/Network.png)
-
-8. Click `Finish and Close` and the MongoDB Instance should be up and running.
+12. Click `Finish and Close` and the MongoDB Instance should be up and running. (It may take up to 10 minutes for the cluster to provision and start) 
 
 ## Whitelisting All IP's
 
 1. Select `Network Access` from the left side pane on Dashboard.
 
-![alt text](./GuideAssets/SidePane.png)
-
 2. Click on the `Add IP Address` Button
-
-![alt text](./GuideAssets/AddIPAddress.png)
 
 3. Select the `ALLOW ACCESS FROM ANYWHERE` Button and Click `Confirm`
 
